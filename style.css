@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 1920px;
+    height: 1080px;
+    background-color: #DACCBF;
+}
+
+.container-left {
+    display: flex;
+    width: 960px;
+    height: 1080px;
+    flex-direction: row;
+}
+
+.left {
+    width: 480px;
+    height: 1080px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin: 30px 30px;
+    height: 1080px;
+}
+
+.title {
+    margin: 550px 50px 0px 100px;
+}
+
+.main-name {
+    font-size: 77px;
+    margin-bottom: 100px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    width: 250px;
+    height: 3px;
+    background-color: black;
+}
+
+.bot {
+    display: flex;
+    flex-direction: row;
+}
+
+.stt {
+    font-size: 25px;
+    margin: 20px 60px 0px 0px;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.cross {
+    width: 4px;
+    height: 1000px;
+    margin: 50px 0px;
+    background-color: #D1C3B7;
+}
+
+.right {
+    width: 480px;
+    height: 1080px;
+    margin-left: 50px;
+}
+
+.content {
+    margin: 50px 50px 513px 0px;
+    font-size: 45px;
+    width: 250px;
+}
+
+.mid-cricle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #a0744b;
+}
+
+.container-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 960px;
+    height: 1080px;
+    background-image: url(./image/finn-ijspeert-N28vvqhRJ3I-unsplash.jpg);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px;
+    width: 200px;
+}
+
+.fab {
+    margin: 0px 25px;
+}
